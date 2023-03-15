@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(to bottom, #af67e9, #9f67e9, #8d66e9, #7a66e8, #6565e7);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height:100vh; */
+    margin: 0;
+    box-sizing: border-box;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: #3e52a3; }
+
+.container{
+    border: 0px;
+}
+.accordion-item{
+    border: 0px;
+    border-bottom: 2px solid #b8aeaee0;
+    padding: 0.5rem;
+}
+.accordion-button{
+    border: 0PX;
+    background: white;
+    text-align: left;
+    width: 100%;
+}
+@media screen and (min-width: 620px) {
+    body{
+        height: auto;
+    }
+    .container{
+        margin-top: 13rem;
+        margin-bottom: 13rem;
+    }
+    .card{
+        background-image:url(/images/bg-pattern-desktop.svg);
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: 40%;
+        border: 0px;
+        padding: 2rem;
+    }
+    .card-body{
+        margin-top: 3.2rem;
+    }
+    .woman-image{
+        position: relative;
+        z-index: 1;
+        overflow-y: hidden;
+       left: -7rem;
+       overflow: hidden;
+    }
+}
